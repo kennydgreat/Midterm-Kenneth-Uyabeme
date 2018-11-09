@@ -15,6 +15,8 @@
 		CE25205421962A72008822EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE25205221962A72008822EB /* LaunchScreen.storyboard */; };
 		CE25205F21962A72008822EB /* MidtermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25205E21962A72008822EB /* MidtermTests.swift */; };
 		CE25206A21962A72008822EB /* MidtermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25206921962A72008822EB /* MidtermUITests.swift */; };
+		CE25207821962F56008822EB /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25207721962F56008822EB /* ShopViewController.swift */; };
+		CE25207A21963029008822EB /* HomeScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25207921963029008822EB /* HomeScreenTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CE25206521962A72008822EB /* MidtermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidtermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE25206921962A72008822EB /* MidtermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtermUITests.swift; sourceTree = "<group>"; };
 		CE25206B21962A72008822EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE25207721962F56008822EB /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		CE25207921963029008822EB /* HomeScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				CE25204621962A71008822EB /* AppDelegate.swift */,
 				CE25204821962A71008822EB /* ViewController.swift */,
 				CE25204A21962A71008822EB /* Main.storyboard */,
+				CE25207921963029008822EB /* HomeScreenTableViewController.swift */,
+				CE25207721962F56008822EB /* ShopViewController.swift */,
 				CE25205021962A72008822EB /* Assets.xcassets */,
 				CE25205221962A72008822EB /* LaunchScreen.storyboard */,
 				CE25205521962A72008822EB /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE25207821962F56008822EB /* ShopViewController.swift in Sources */,
 				CE25204921962A71008822EB /* ViewController.swift in Sources */,
+				CE25207A21963029008822EB /* HomeScreenTableViewController.swift in Sources */,
 				CE25204F21962A71008822EB /* Midterm.xcdatamodeld in Sources */,
 				CE25204721962A71008822EB /* AppDelegate.swift in Sources */,
 			);
